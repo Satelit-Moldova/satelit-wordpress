@@ -1,4 +1,4 @@
-=== Satelit — Moldova Data ===
+=== Satelit Moldova Data ===
 Contributors: satelit
 Tags: moldova, exchange rates, fuel prices, woocommerce, cinema
 Requires at least: 5.0
@@ -12,18 +12,18 @@ BNM exchange rates, a MDL converter, fuel prices, shop prices, news, cinema sche
 
 == Description ==
 
-Satelit — Moldova Data shows data about the Republic of Moldova on your site, from the [Satelit API](https://developer.satelit.md/en/docs/). Every feature is a shortcode, a block, and (where it fits a sidebar) a classic widget.
+Satelit Moldova Data shows data about the Republic of Moldova on your site, from the [Satelit API](https://developer.satelit.md/en/docs/). Every feature is a shortcode, a block, and (where it fits a sidebar) a classic widget.
 
-* `[satelit_rates codes="EUR,USD,RON,RUB,UAH"]` — official BNM rates with the 7-day change.
-* `[satelit_converter]` — MDL currency converter (today's BNM rates are embedded in the page, nothing is fetched by the browser).
-* `[satelit_fuel]` — fuel prices per network, the ANRE cap and the cheapest network.
-* `[satelit_prices q="lapte" limit="5"]` — product price comparison in Moldovan shops (lowest and median price, number of shops).
-* `[satelit_product id="217"]` — every shop's offer for one product.
-* `[satelit_news limit="5" category=""]` — latest news cards with links to their outlets.
-* `[satelit_cinema city="Chișinău"]` — what's on in cinemas today: posters and session times per cinema.
-* `[satelit_movie id="m603"]` — a film card.
-* `[satelit_law days="7"]` — Monitorul Oficial digest list.
-* `[satelit_joke]` — the joke of the day.
+* `[satelit_rates codes="EUR,USD,RON,RUB,UAH"]`: official BNM rates with the 7-day change.
+* `[satelit_converter]`: MDL currency converter (today's BNM rates are embedded in the page, nothing is fetched by the browser).
+* `[satelit_fuel]`: fuel prices per network, the ANRE cap and the cheapest network.
+* `[satelit_prices q="lapte" limit="5"]`: product price comparison in Moldovan shops (lowest and median price, number of shops).
+* `[satelit_product id="217"]`: every shop's offer for one product.
+* `[satelit_news limit="5" category=""]`: latest news cards with links to their outlets.
+* `[satelit_cinema city="Chișinău"]`: what's on in cinemas today: posters and session times per cinema.
+* `[satelit_movie id="m603"]`: a film card.
+* `[satelit_law days="7"]`: Monitorul Oficial digest list.
+* `[satelit_joke]`: the joke of the day.
 
 **WooCommerce** (only when it is active): a "Prices in other shops" product tab fed by a search term or a Satelit item id that you set in a box on the product screen, and an optional line under the price with the product's price in EUR/USD (or other codes) at today's BNM rate.
 
@@ -48,11 +48,11 @@ Data attribution is shown with the data as the API asks: for example BNM rates c
 
 = How many credits does it use? =
 
-Most routes cost 1-5 credits per answer; cinema schedules and film cards cost 40. Every answer is cached (WordPress transients) for the minutes set in Settings → Satelit, and all visitors get the cached copy, so a page costs credits once per cache period. Defaults: rates 3 h, fuel 2 h, prices 3 h, news 15 min, cinema 2 h, film cards 24 h, Monitorul Oficial 6 h, joke 6 h.
+Most routes cost 1-5 credits per answer. Cinema schedules and film cards cost 40. Every answer is cached (WordPress transients) for the minutes set in Settings → Satelit, and all visitors get the cached copy, so a page costs credits once per cache period. Defaults: rates 3 h, fuel 2 h, prices 3 h, news 15 min, cinema 2 h, film cards 24 h, Monitorul Oficial 6 h, joke 6 h.
 
 = What happens when the API is down or the key is wrong? =
 
-Pages show the last saved copy (kept up to a week) with a small "saved copy" mark, or nothing at all when there is none. Calls pause for 2 minutes after a network failure and for 5 minutes after a refused key, so a dead API never slows every page view. Administrators see a short line in place of the block and an admin notice; visitors see no error.
+Pages show the last saved copy (kept up to a week) with a small "saved copy" mark, or nothing at all when there is none. Calls pause for 2 minutes after a network failure and for 5 minutes after a refused key, so a dead API never slows every page view. Administrators see a short line in place of the block and an admin notice. Visitors see no error.
 
 = Is the key safe? =
 

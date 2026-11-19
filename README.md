@@ -1,4 +1,4 @@
-# Satelit — Moldova Data (WordPress plugin)
+# Satelit Moldova Data (WordPress plugin)
 
 BNM exchange rates, a MDL converter, fuel prices with the ANRE cap, prices in Moldovan shops, news, cinema schedules, Monitorul Oficial digests and the joke of the day on any WordPress site, from the [Satelit API](https://developer.satelit.md/en/docs/). Every feature is a **shortcode**, a **block** and, where it fits a sidebar, a **classic widget**. With WooCommerce it adds a **"Prices in other shops"** product tab and the price in EUR/USD at today's BNM rate.
 
@@ -22,7 +22,7 @@ Sursa: Banca Națională a Moldovei, bnm.md, CC BY 4.0        Data: Satelit
 | Shortcode | Block | Widget | Shows | API route | Credits |
 |---|---|---|---|---|---|
 | `[satelit_rates codes="EUR,USD,RON,RUB,UAH"]` | `satelit/rates` | yes | BNM rates, 7-day change arrows, BNM attribution | `/rates` | 1 |
-| `[satelit_converter codes="EUR,USD,RON,RUB,UAH,GBP" amount="100"]` | `satelit/converter` | yes | MDL converter; rates embedded server-side, ~1 KB of vanilla JS | `/rates` | 1 (shared cache) |
+| `[satelit_converter codes="EUR,USD,RON,RUB,UAH,GBP" amount="100"]` | `satelit/converter` | yes | MDL converter. Rates embedded server-side, ~1 KB of vanilla JS | `/rates` | 1 (shared cache) |
 | `[satelit_fuel limit="10"]` | `satelit/fuel` | yes | Prices per network (cheapest A95 first), ANRE cap, cheapest network per fuel | `/fuel` | 1 |
 | `[satelit_prices q="lapte" limit="5"]` | `satelit/prices` | | Products with lowest and median price and number of shops | `/prices/search` | 3 |
 | `[satelit_product id="217" limit="10"]` | `satelit/product` | | Every shop's offer for one product (shop name, price, old price, stock) | `/prices/items/{id}` | 2 |
@@ -57,18 +57,18 @@ Sursa: Banca Națională a Moldovei, bnm.md, CC BY 4.0        Data: Satelit
 
 Settings → Satelit:
 
-- **API key** — a password field. The saved key is never shown again (the field stays empty with "A key is saved"); leave it empty to keep it, tick "Remove the saved key" to delete it.
-- **Data language** — `ro`, `ru`, `en`, `uk`, or the site language.
-- **Cache, minutes** — per product, with floors that protect your credits.
-- **WooCommerce** — the price line in other currencies and its codes.
-- **Test connection** — calls `GET /v1/me` (0 credits) through admin-ajax and shows the plan and credits left, e.g. `Connected. Plan: pro. Credits left: 297,454 of 300,000 (renews December 19, 2026).`
-- **Clear cache** — drops every cached answer.
+- **API key**: a password field. The saved key is never shown again (the field stays empty with "A key is saved"). Leave it empty to keep it, tick "Remove the saved key" to delete it.
+- **Data language**: `ro`, `ru`, `en`, `uk`, or the site language.
+- **Cache, minutes**: per product, with floors that protect your credits.
+- **WooCommerce**: the price line in other currencies and its codes.
+- **Test connection**: calls `GET /v1/me` (0 credits) through admin-ajax and shows the plan and credits left, e.g. `Connected. Plan: pro. Credits left: 297,454 of 300,000 (renews December 19, 2026).`
+- **Clear cache**: drops every cached answer.
 
 ![Settings → Satelit](screenshots/settings-1280.png)
 
 ## Usage
 
-Shortcodes go anywhere shortcodes work. In the block editor search "Satelit" in the inserter: each block has its fields in the sidebar and a live preview (server-side render). For sidebars, add the widget "Satelit — Moldova Data" and pick what it shows.
+Shortcodes go anywhere shortcodes work. In the block editor search "Satelit" in the inserter: each block has its fields in the sidebar and a live preview (server-side render). For sidebars, add the widget "Satelit Moldova Data" and pick what it shows.
 
 ```
 [satelit_rates codes="EUR,USD"]
@@ -97,9 +97,9 @@ When the API fails:
 
 - a **saved copy** of the last good answer (kept a week) is shown, marked "saved copy";
 - after a network failure or a 5xx answer, calls **pause for 2 minutes** (429: for `Retry-After`), so a dead API costs one 8 s wait, not one per block per view;
-- a refused key (401/402/403) pauses calls for 5 minutes and shows an **admin notice** on every admin page; saving a new key or "Test connection" ends the pause;
+- a refused key (401/402/403) pauses calls for 5 minutes and shows an **admin notice** on every admin page. Saving a new key or "Test connection" ends the pause;
 - 404/422 (a wrong id) is remembered for 10 minutes for that shortcode only;
-- visitors never see an error: with no data the block prints nothing; administrators see one short line in its place.
+- visitors never see an error: with no data the block prints nothing. Administrators see one short line in its place.
 
 With `WP_DEBUG_LOG` on, each failure logs one short line (`Satelit: GET /rates failed: satelit_unreachable`).
 
@@ -120,11 +120,11 @@ Run on 19 Nov 2026 in Docker (official `wordpress` and `mariadb` images), plugin
 | WordPress | PHP | Database | Extra | Result |
 |---|---|---|---|---|
 | 7.1.5 | 8.3.36 | MariaDB 11.8.9 | WooCommerce 11.3.0, Twenty Twenty-Five | all 10 shortcodes, 10 blocks, product tab, price line, settings, test connection |
-| 6.9.4 | 8.3.31 | MariaDB 11.8.9 | | all 10 shortcodes; bad key, API down, timeout; ro_RO and ru_RU translations |
+| 6.9.4 | 8.3.31 | MariaDB 11.8.9 | | all 10 shortcodes. Bad key, API down, timeout. Ro_RO and ru_RU translations |
 | 5.9.3 | 7.4.29 | MariaDB 11.8.9 | | all 10 shortcodes, settings form |
 | 5.0.3 | 7.2.15 | MariaDB 11.8.9 | | all 10 shortcodes, 10 blocks, settings form |
 
-Static checks: `php -l` and the offline tests on PHP 7.2.34, 7.4.33 and 8.3.36; PHPCS 3.13.6 with WordPress Coding Standards 3.4.1 (`WordPress` ruleset) and PHPCompatibilityWP 2.1.8 (`testVersion 7.2-`): no errors, no warnings.
+Static checks: `php -l` and the offline tests on PHP 7.2.34, 7.4.33 and 8.3.36. PHPCS 3.13.6 with WordPress Coding Standards 3.4.1 (`WordPress` ruleset) and PHPCompatibilityWP 2.1.8 (`testVersion 7.2-`): no errors, no warnings.
 
 ## Development
 
@@ -135,20 +135,20 @@ composer install && vendor/bin/phpcs    # coding standards (dev only)
 sh bin/build-zip.sh                     # build/satelit-moldova-data.zip from the last commit
 ```
 
-Translations: `languages/satelit-moldova-data.pot` (made with `wp i18n make-pot`), Romanian and Russian `.po`/`.mo`. CI (`.github/workflows/ci.yml`) runs lint and the offline tests on PHP 7.2/7.4/8.3, PHPCS, and builds the zip; it needs no secrets.
+Translations: `languages/satelit-moldova-data.pot` (made with `wp i18n make-pot`), Romanian and Russian `.po`/`.mo`. CI (`.github/workflows/ci.yml`) runs lint and the offline tests on PHP 7.2/7.4/8.3, PHPCS, and builds the zip. It needs no secrets.
 
 ## Troubleshooting
 
-- **Nothing shows on the page** — log in as an administrator and look at the page: the block's place shows why (no key, key refused, API unreachable). Settings → Satelit → "Test connection".
-- **"Satelit: … (401)" notice** — the key is wrong or revoked; paste a new one from the console.
-- **402 `plan_required`** — the key has no active plan: <https://developer.satelit.md/en/pricing/>.
-- **Old numbers** — "Clear cache", or lower the cache minutes.
-- **Error codes** — <https://developer.satelit.md/en/errors/>.
+- **Nothing shows on the page**: log in as an administrator and look at the page: the block's place shows why (no key, key refused, API unreachable). Settings → Satelit → "Test connection".
+- **"Satelit: … (401)" notice**: the key is wrong or revoked. Paste a new one from the console.
+- **402 `plan_required`**: the key has no active plan: <https://developer.satelit.md/en/pricing/>.
+- **Old numbers**: "Clear cache", or lower the cache minutes.
+- **Error codes**: <https://developer.satelit.md/en/errors/>.
 
 ## Pe scurt (română)
 
-Plugin WordPress pentru datele Satelit: cursurile BNM cu variația pe 7 zile, convertor MDL, prețurile carburanților cu plafonul ANRE, prețuri în magazinele din Moldova, știri, programul cinematografelor, sinteza Monitorului Oficial și bancul zilei — ca shortcode-uri, blocuri și widget. Cu WooCommerce adaugă fila „Prețuri în alte magazine” și prețul produsului în EUR/USD la cursul BNM. Cheia API se pune în Setări → Satelit (rămâne pe server, nu ajunge la vizitatori); răspunsurile stau în cache, iar când API-ul nu răspunde se arată ultima copie salvată. Traduceri în română și rusă incluse. Cheile și planurile: <https://developer.satelit.md/en/pricing/>.
+Plugin WordPress pentru datele Satelit: cursurile BNM cu variația pe 7 zile, convertor MDL, prețurile carburanților cu plafonul ANRE, prețuri în magazinele din Moldova, știri, programul cinematografelor, sinteza Monitorului Oficial și bancul zilei: ca shortcode-uri, blocuri și widget. Cu WooCommerce adaugă fila „Prețuri în alte magazine” și prețul produsului în EUR/USD la cursul BNM. Cheia API se pune în Setări → Satelit (rămâne pe server, nu ajunge la vizitatori). Răspunsurile stau în cache, iar când API-ul nu răspunde se arată ultima copie salvată. Traduceri în română și rusă incluse. Cheile și planurile: <https://developer.satelit.md/en/pricing/>.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Copyright (c) 2026 Satelit (satelit.md).
+MIT: see [LICENSE](LICENSE). Copyright (c) 2026 Satelit (satelit.md).
