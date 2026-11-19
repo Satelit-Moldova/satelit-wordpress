@@ -1,0 +1,19 @@
+{
+	"name": "satelit-moldova/satelit-wordpress",
+	"description": "Development tools for the Satelit — Moldova Data WordPress plugin (coding standards). Not needed at runtime.",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.1",
+		"phpcompatibility/phpcompatibility-wp": "^2.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"lint": "phpcs",
+		"test": "php tests/run.php"
+	}
+}

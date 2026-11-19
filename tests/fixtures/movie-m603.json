@@ -1,0 +1,143 @@
+{
+ "data": {
+  "id": "m603",
+  "kind": "movie",
+  "title": "Matrix",
+  "original_title": "The Matrix",
+  "tagline": "Crede ce pare incredibil.",
+  "overview": "Thomas Anderson, un hacker cunoscut sub numele de Neo, caută răspunsuri la întrebările care îl macină. Când misterioasa Trinity îl conduce la Morpheus, un om care pare să știe adevărul, Neo descoperă că lumea pe care o știe nu este ceea ce pare și este atras într-o luptă secretă care poate schimba s…",
+  "year": 1999,
+  "released": "1999-03-31",
+  "status": "released",
+  "runtime_min": 136,
+  "genres": [
+   "Acțiune",
+   "SF"
+  ],
+  "countries": [
+   "US"
+  ],
+  "language": "en",
+  "spoken": [
+   "en"
+  ],
+  "ratings": {
+   "community": {
+    "value": 8.3,
+    "votes": 29284
+   }
+  },
+  "age_rating": {
+   "country": "RO",
+   "rating": "15"
+  },
+  "pictures": {
+   "poster": {
+    "s": "https://api.satelit.md/v1/movies/img/s/fvCgaMLmIcGTAGgWfunRHMyMDOW.jpg",
+    "m": "https://api.satelit.md/v1/movies/img/m/fvCgaMLmIcGTAGgWfunRHMyMDOW.jpg",
+    "l": "https://api.satelit.md/v1/movies/img/l/fvCgaMLmIcGTAGgWfunRHMyMDOW.jpg"
+   },
+   "backdrop": {
+    "m": "https://api.satelit.md/v1/movies/img/m/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
+    "w": "https://api.satelit.md/v1/movies/img/w/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg"
+   }
+  },
+  "people": {
+   "directors": [
+    {
+     "id": "p9340",
+     "name": "Lana Wachowski"
+    },
+    {
+     "id": "p9339",
+     "name": "Lilly Wachowski"
+    }
+   ],
+   "writers": [
+    {
+     "id": "p9340",
+     "name": "Lana Wachowski"
+    },
+    {
+     "id": "p9339",
+     "name": "Lilly Wachowski"
+    }
+   ],
+   "cast": [
+    {
+     "id": "p6384",
+     "name": "Keanu Reeves",
+     "character": "Neo",
+     "pictures": {
+      "photo": {
+       "s": "https://api.satelit.md/v1/movies/img/s/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg",
+       "m": "https://api.satelit.md/v1/movies/img/m/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg",
+       "l": "https://api.satelit.md/v1/movies/img/l/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg"
+      }
+     }
+    },
+    {
+     "id": "p2975",
+     "name": "Laurence Fishburne",
+     "character": "Morpheus",
+     "pictures": {
+      "photo": {
+       "s": "https://api.satelit.md/v1/movies/img/s/2GbXERENPpl5MmlqOLlPVaVtifD.jpg",
+       "m": "https://api.satelit.md/v1/movies/img/m/2GbXERENPpl5MmlqOLlPVaVtifD.jpg",
+       "l": "https://api.satelit.md/v1/movies/img/l/2GbXERENPpl5MmlqOLlPVaVtifD.jpg"
+      }
+     }
+    },
+    {
+     "id": "p530",
+     "name": "Carrie-Anne Moss",
+     "character": "Trinity",
+     "pictures": {
+      "photo": {
+       "s": "https://api.satelit.md/v1/movies/img/s/9zya72vRZYBQILfetACsnmCBgdj.jpg",
+       "m": "https://api.satelit.md/v1/movies/img/m/9zya72vRZYBQILfetACsnmCBgdj.jpg",
+       "l": "https://api.satelit.md/v1/movies/img/l/9zya72vRZYBQILfetACsnmCBgdj.jpg"
+      }
+     }
+    }
+   ]
+  },
+  "companies": [
+   "Village Roadshow Pictures",
+   "Warner Bros. Pictures",
+   "Groucho II Film Partnership"
+  ],
+  "watch": {
+   "country": "RO",
+   "stream": [],
+   "free": [],
+   "rent": [
+    "Amazon Video",
+    "Rakuten TV"
+   ],
+   "buy": [
+    "Amazon Video",
+    "Rakuten TV"
+   ]
+  },
+  "trailers": [],
+  "attribution": null,
+  "money": {
+   "budget_usd": 63000000,
+   "box_office_usd": 467222728
+  },
+  "collection": "Матриця | Колекція"
+ },
+ "meta": {
+  "credits": 40,
+  "updated_at": null,
+  "sources": [
+   {
+    "name": "Satelit",
+    "url": "https://satelit.md",
+    "license": "Satelit"
+   }
+  ],
+  "attribution": null
+ }
+}

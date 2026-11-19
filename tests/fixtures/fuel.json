@@ -1,0 +1,97 @@
+{
+ "data": {
+  "date": "2026-11-19",
+  "cap": {
+   "a95": 28.08,
+   "diesel": 33.46
+  },
+  "networks": [
+   {
+    "key": "lukoil",
+    "name": "Lukoil",
+    "url": "https://lukoil.md/ro/",
+    "stations": 103,
+    "date": "2026-11-19",
+    "stale": false,
+    "prices": {
+     "a95": 28.08,
+     "diesel": 33.46,
+     "lpg": 18.95
+    }
+   },
+   {
+    "key": "rompetrol",
+    "name": "Rompetrol",
+    "url": "https://www.rompetrol.md/",
+    "stations": 95,
+    "date": "2026-11-19",
+    "stale": false,
+    "prices": {
+     "a95": 28.05,
+     "diesel": 33.42,
+     "lpg": 19.0
+    }
+   },
+   {
+    "key": "vento",
+    "name": "Vento",
+    "url": "https://vento-moldova.md/",
+    "stations": 89,
+    "date": "2026-11-19",
+    "stale": false,
+    "prices": {
+     "a95": 28.04,
+     "diesel": 33.44,
+     "lpg": 19.19
+    }
+   },
+   {
+    "key": "tlx",
+    "name": "TLX",
+    "url": null,
+    "stations": 4,
+    "date": "2026-11-19",
+    "stale": false,
+    "prices": {
+     "a95": 27.9,
+     "diesel": 33.25,
+     "lpg": 18.6
+    }
+   }
+  ],
+  "cheapest": {
+   "a95": "tlx",
+   "diesel": "tlx",
+   "lpg": "tlx"
+  },
+  "range": {
+   "a95": {
+    "min": 27.9,
+    "max": 28.8,
+    "networks": 20
+   },
+   "diesel": {
+    "min": 33.25,
+    "max": 34.14,
+    "networks": 20
+   },
+   "lpg": {
+    "min": 18.6,
+    "max": 19.2,
+    "networks": 17
+   }
+  }
+ },
+ "meta": {
+  "credits": 1,
+  "updated_at": "2026-11-19T16:36:34+02:00",
+  "sources": [
+   {
+    "name": "ANRE",
+    "url": "https://anre.md",
+    "license": "Public data of ANRE"
+   }
+  ],
+  "attribution": null
+ }
+}

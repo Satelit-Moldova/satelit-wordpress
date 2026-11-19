@@ -1,0 +1,77 @@
+{
+ "data": [
+  {
+   "id": 3487,
+   "slug": "lapte-casuta-mea-2-5-1l",
+   "name": "Lapte Casuta Mea 2.5% 1 l",
+   "brand": "Casuta Mea",
+   "capacity": "1 l",
+   "category": "dairy_eggs",
+   "min_price": 15.99,
+   "median_price": 18.99,
+   "unit_min_price": 15.99,
+   "price_unit": "l",
+   "stores": 4,
+   "in_stock_stores": 3,
+   "updated_at": "2026-11-19T16:31:33+02:00"
+  },
+  {
+   "id": 217,
+   "slug": "lapte-jlc-2-5-1l",
+   "name": "Lapte JLC 2.5% 1 l",
+   "brand": "JLC",
+   "capacity": "1 l",
+   "category": "dairy_eggs",
+   "min_price": 16.99,
+   "median_price": 18.02,
+   "unit_min_price": 16.99,
+   "price_unit": "l",
+   "stores": 4,
+   "in_stock_stores": 4,
+   "updated_at": "2026-11-19T16:31:33+02:00"
+  },
+  {
+   "id": 127,
+   "slug": "lapte-prodlacta-ultrapasterizat-3-5-1l",
+   "name": "Lapte Prodlacta ultrapasterizat 3.5% 1 l",
+   "brand": "Prodlacta",
+   "capacity": "1 l",
+   "category": "dairy_eggs",
+   "min_price": 29.99,
+   "median_price": 34.8,
+   "unit_min_price": 29.99,
+   "price_unit": "l",
+   "stores": 4,
+   "in_stock_stores": 3,
+   "updated_at": "2026-11-19T01:01:42+02:00"
+  }
+ ],
+ "meta": {
+  "credits": 3,
+  "updated_at": "2026-11-19T16:31:33+02:00",
+  "sources": [
+   {
+    "name": "Baby Boom",
+    "url": "https://www.baby-boom.md",
+    "license": "none: read from the shop's public pages; no agreement with the shop and no licence over its data is granted"
+   },
+   {
+    "name": "Bonus",
+    "url": "https://bonus.zakaz.md",
+    "license": "none: read from the shop's public pages; no agreement with the shop and no licence over its data is granted"
+   },
+   {
+    "name": "Family Market",
+    "url": "https://familymarket.md",
+    "license": "none: read from the shop's public pages; no agreement with the shop and no licence over its data is granted"
+   }
+  ],
+  "attribution": null,
+  "page": {
+   "page": 1,
+   "per": 20,
+   "total": 100,
+   "pages": 5
+  }
+ }
+}

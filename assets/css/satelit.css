@@ -1,0 +1,313 @@
+/* Satelit — Moldova Data. Inherits the theme's font and colours; uses currentColor tints so it works on light and dark themes. */
+.satelit {
+	--satelit-line: rgba(127, 127, 127, 0.3);
+	--satelit-soft: rgba(127, 127, 127, 0.08);
+	--satelit-up: #1a7f37;
+	--satelit-down: #c62828;
+	box-sizing: border-box;
+	max-width: 100%;
+	margin: 0 0 1.5em;
+	padding: 0.9em 1em;
+	border: 1px solid var(--satelit-line);
+	border-radius: 10px;
+	font-size: 0.95em;
+	line-height: 1.45;
+	overflow-wrap: anywhere;
+}
+@supports (color: color-mix(in srgb, red 50%, blue)) {
+	.satelit {
+		--satelit-line: color-mix(in srgb, currentColor 16%, transparent);
+		--satelit-soft: color-mix(in srgb, currentColor 5%, transparent);
+	}
+}
+.satelit *,
+.satelit *::before,
+.satelit *::after {
+	box-sizing: inherit;
+}
+@media (prefers-color-scheme: dark) {
+	.satelit {
+		--satelit-up: #4ac26b;
+		--satelit-down: #ff7b72;
+	}
+}
+.satelit-head {
+	margin: 0 0 0.6em;
+	font-weight: 700;
+	font-size: 1.05em;
+}
+.satelit-table {
+	width: 100%;
+	margin: 0;
+	border-collapse: collapse;
+	border: 0;
+	font-variant-numeric: tabular-nums;
+}
+.satelit-table th,
+.satelit-table td {
+	padding: 0.45em 0.5em;
+	border: 0;
+	border-bottom: 1px solid var(--satelit-line);
+	text-align: left;
+	vertical-align: top;
+	background: none;
+}
+.satelit-table thead th {
+	font-size: 0.85em;
+	font-weight: 600;
+	opacity: 0.75;
+}
+.satelit-table tbody th {
+	font-weight: 500;
+}
+.satelit-table tr:last-child th,
+.satelit-table tr:last-child td {
+	border-bottom: 0;
+}
+.satelit .satelit-num {
+	text-align: right;
+	white-space: nowrap;
+}
+.satelit-code {
+	font-weight: 700;
+}
+.satelit-muted {
+	opacity: 0.7;
+}
+.satelit-small {
+	font-size: 0.85em;
+}
+.satelit-up {
+	color: var(--satelit-up);
+}
+.satelit-down {
+	color: var(--satelit-down);
+}
+.satelit-flat {
+	opacity: 0.6;
+}
+.satelit-best {
+	font-weight: 700;
+}
+.satelit-foot {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25em 0.75em;
+	justify-content: space-between;
+	margin-top: 0.75em;
+	font-size: 0.78em;
+	opacity: 0.8;
+}
+.satelit-foot a {
+	color: inherit;
+}
+.satelit-stale {
+	font-style: italic;
+}
+.satelit-facts,
+.satelit-list,
+.satelit-cards,
+.satelit-films {
+	margin: 0 0 0.6em;
+	padding: 0;
+	list-style: none;
+}
+.satelit-facts li {
+	margin: 0 0 0.25em;
+}
+.satelit-list li {
+	padding: 0.45em 0;
+	border-bottom: 1px solid var(--satelit-line);
+}
+.satelit-list li:last-child,
+.satelit-cards li:last-child {
+	border-bottom: 0;
+}
+.satelit-title {
+	font-weight: 600;
+}
+.satelit-big {
+	font-size: 1.3em;
+	line-height: 1.25;
+}
+.satelit-card {
+	display: flex;
+	gap: 0.75em;
+	padding: 0.6em 0;
+	border-bottom: 1px solid var(--satelit-line);
+}
+.satelit-card p {
+	margin: 0.3em 0;
+}
+.satelit-card-body {
+	min-width: 0;
+	flex: 1;
+}
+.satelit-thumb {
+	width: 96px;
+	height: 64px;
+	object-fit: cover;
+	border-radius: 6px;
+	flex: none;
+}
+/* Converter */
+.satelit-conv {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	gap: 0.6em;
+	margin: 0;
+}
+.satelit-field {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2em;
+	font-size: 0.85em;
+	min-width: 0;
+}
+.satelit-field input,
+.satelit-field select {
+	font: inherit;
+	font-size: 1.1em;
+	padding: 0.35em 0.5em;
+	min-height: 2.4em;
+	color: inherit;
+	background: var(--satelit-soft);
+	border: 1px solid var(--satelit-line);
+	border-radius: 6px;
+}
+.satelit-field input {
+	width: 9em;
+}
+.satelit-swap {
+	font: inherit;
+	min-height: 2.4em;
+	min-width: 2.4em;
+	padding: 0 0.5em;
+	color: inherit;
+	background: transparent;
+	border: 1px solid var(--satelit-line);
+	border-radius: 6px;
+	cursor: pointer;
+}
+.satelit-result {
+	flex: 1 1 100%;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+}
+/* Cinema */
+.satelit-cinema-one + .satelit-cinema-one {
+	margin-top: 1em;
+	padding-top: 0.8em;
+	border-top: 1px solid var(--satelit-line);
+}
+.satelit-films {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 0.6em 1em;
+	margin-top: 0.6em;
+}
+.satelit-film {
+	display: flex;
+	gap: 0.6em;
+	min-width: 0;
+}
+.satelit-poster {
+	display: block;
+	width: 60px;
+	height: 90px;
+	object-fit: cover;
+	border-radius: 4px;
+	flex: none;
+	background: var(--satelit-soft);
+}
+.satelit-film-title {
+	font-weight: 600;
+	margin-bottom: 0.3em;
+}
+.satelit-times {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.3em;
+}
+.satelit-time {
+	display: inline-block;
+	padding: 0.1em 0.45em;
+	font-size: 0.85em;
+	font-variant-numeric: tabular-nums;
+	border: 1px solid var(--satelit-line);
+	border-radius: 4px;
+	text-decoration: none;
+	color: inherit;
+}
+.satelit-sold {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+/* Film card */
+.satelit-movie-card {
+	display: flex;
+	gap: 1em;
+}
+.satelit-movie-card p {
+	margin: 0.5em 0;
+}
+.satelit-poster-l {
+	width: 160px;
+	height: auto;
+	border-radius: 6px;
+	flex: none;
+	align-self: flex-start;
+}
+.satelit-joke-text {
+	margin: 0.4em 0 0;
+}
+.satelit-empty {
+	margin: 0;
+	opacity: 0.7;
+}
+.satelit-admin-note {
+	padding: 0.5em 0.8em;
+	border-style: dashed;
+	font-size: 0.85em;
+}
+.satelit-fx {
+	display: block;
+	margin-top: 0.2em;
+	font-size: 0.8em;
+	font-weight: 400;
+	opacity: 0.85;
+}
+.satelit-fx small {
+	display: block;
+	font-size: 0.85em;
+}
+@media (max-width: 480px) {
+	.satelit {
+		padding: 0.75em 0.7em;
+	}
+	.satelit-table th,
+	.satelit-table td {
+		padding: 0.4em 0.3em;
+	}
+	.satelit-movie-card {
+		flex-direction: column;
+	}
+	.satelit-poster-l {
+		width: 120px;
+	}
+	.satelit-thumb {
+		width: 72px;
+		height: 54px;
+	}
+	.satelit-films {
+		grid-template-columns: 1fr;
+	}
+	.satelit-field {
+		flex: 1 1 40%;
+	}
+	.satelit-field input {
+		width: 100%;
+	}
+}

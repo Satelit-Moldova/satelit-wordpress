@@ -1,0 +1,50 @@
+{
+ "data": {
+  "id": "j_76",
+  "kind": "joke",
+  "title": "Mâine să vii cu bunicul",
+  "text": "Profesoara către elev:\n— Mâine să vii la școală cu bunicul tău!\n— Poate cu tata!\n— Nu, cu bunicul! Vreau să-i arăt ce tâmpenii debitează fiu-său, când îți face ție temele.",
+  "lang": "ro",
+  "topic": "school",
+  "topics": [
+   "family",
+   "school"
+  ],
+  "score": 70,
+  "md_score": 80,
+  "min_age": 9,
+  "kids_ok": true,
+  "adult": false,
+  "flags": [],
+  "langs": [
+   "en",
+   "ro",
+   "ru"
+  ],
+  "source": {
+   "name": "Râzi cu lacrimi",
+   "url": "https://raziculacrimi.ro/bancul-zilei/profa-maine-sa-vii-la-scoala-cu-bunicul-tau/"
+  },
+  "published_at": "2026-10-28T13:13:30+02:00",
+  "voice": [
+   {
+    "speaker": "narrator",
+    "text": "Ceva n-ai de făcut!"
+   }
+  ],
+  "dialogue": false,
+  "date": "2026-11-19"
+ },
+ "meta": {
+  "credits": 1,
+  "updated_at": "2026-11-05T14:49:17+02:00",
+  "sources": [
+   {
+    "name": "Râzi cu lacrimi",
+    "url": "https://raziculacrimi.ro/bancuri/",
+    "license": "none: read from the source's public pages; no agreement with the source and no licence over its data is granted"
+   }
+  ],
+  "attribution": null
+ }
+}

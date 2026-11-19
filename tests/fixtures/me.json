@@ -1,0 +1,25 @@
+{
+ "data": {
+  "plan": "pro",
+  "credits": {
+   "limit": 300000,
+   "used": 40,
+   "reset": "2026-12-19T16:41:51+02:00",
+   "plan": 300000,
+   "extra": 0
+  },
+  "rate": {
+   "per_minute": 600
+  },
+  "key": {
+   "name": "example",
+   "prefix": "sat_live_xxx"
+  }
+ },
+ "meta": {
+  "credits": 0,
+  "updated_at": null,
+  "sources": [],
+  "attribution": null
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "error": {
+  "code": "key_invalid",
+  "message": "The API key is not valid.",
+  "docs": "https://developer.satelit.md/en/errors/"
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "data": [
+  {
+   "id": "n_2e63dae6c2a47fc06df6",
+   "kind": "brief",
+   "category": {
+    "key": "politics",
+    "label": "Politică"
+   },
+   "title": "PAS va anunța oficial pe 29 noiembrie candidatul pentru Primăria Chișinău, spune Igor Grosu",
+   "dek": null,
+   "gravity": 13,
+   "band": "low",
+   "reach": 0,
+   "region": {
+    "key": "chisinau",
+    "label": "Chișinău"
+   },
+   "regions": [
+    "chisinau"
+   ],
+   "slot": {
+    "key": "noon",
+    "label": "La prânz"
+   },
+   "due_at": "2026-11-19T11:00:00+02:00",
+   "published_at": "2026-11-19T09:03:00+02:00",
+   "sources": [
+    {
+     "name": "Stiri.md",
+     "url": "https://stiri.md/article/politica/pas-si-a-ales-candidatul-la-primaria-chisinau-grosu-dezvaluie-data-anuntului-oficial"
+    },
+    {
+     "name": "Moldpres",
+     "url": "https://www.moldpres.md/rom/societate/igor-grosu-spune-ca-pas-este-aproape-decis-asupra-candidatului-pentru-primaria-chisinau-insa-urmeaza-sa-anunte-oficial-pe-29-noiembrie"
+    }
+   ],
+   "sources_count": 2,
+   "image": null,
+   "reaction": {
+    "score": 0.0,
+    "label": null,
+    "comments": 3
+   },
+   "event_id": "e_dd4c9e0f949322035b9b"
+  },
+  {
+   "id": "n_f64609d7d2b7dbfee8c6",
+   "kind": "brief",
+   "category": {
+    "key": "economy",
+    "label": "Economie și prețuri"
+   },
+   "title": "Guvernul a aprobat bugetul pe 2027: deficit de aproape 20 de miliarde de lei și mai multe fonduri pentru infrastructură și apărare",
+   "dek": null,
+   "gravity": 51,
+   "band": "high",
+   "reach": 3,
+   "region": {
+    "key": "global",
+    "label": "Toată țara"
+   },
+   "regions": [
+    "global"
+   ],
+   "slot": {
+    "key": "noon",
+    "label": "La prânz"
+   },
+   "due_at": "2026-11-19T11:00:00+02:00",
+   "published_at": "2026-11-19T09:01:00+02:00",
+   "sources": [
+    {
+     "name": "TV8",
+     "url": "https://tv8.md/ru/2026/11/19/video-pochti-20-mlrd-leev-defitsita-i-novie-raskhodi-kakim-budet-byudzhet-moldovi-na-2027-god/312893"
+    }
+   ],
+   "sources_count": 1,
+   "image": null,
+   "reaction": null,
+   "event_id": "e_b2eb5387acaee1c87416"
+  },
+  {
+   "id": "n_77c2cff181735252b57a",
+   "kind": "brief",
+   "category": {
+    "key": "education",
+    "label": "Educație"
+   },
+   "title": "Ministerul Educației pregătește schimbări în formarea cadrelor didactice",
+   "dek": null,
+   "gravity": 24,
+   "band": "low",
+   "reach": 1,
+   "region": {
+    "key": "global",
+    "label": "Toată țara"
+   },
+   "regions": [
+    "global"
+   ],
+   "slot": {
+    "key": "morning",
+    "label": "Dimineața"
+   },
+   "due_at": "2026-11-19T08:53:00+02:00",
+   "published_at": "2026-11-19T08:53:00+02:00",
+   "sources": [
+    {
+     "name": "Stiri.md",
+     "url": "https://stiri.md/article/social/reforma-in-formarea-cadrelor-didactice-ce-schimbari-pregateste-ministerul-educatiei"
+    }
+   ],
+   "sources_count": 1,
+   "image": null,
+   "reaction": null,
+   "event_id": "e_ddfbaf112cc4cf33512c"
+  }
+ ],
+ "meta": {
+  "credits": 2,
+  "updated_at": "2026-11-19T10:06:48+02:00",
+  "sources": [
+   {
+    "name": "Satelit",
+    "url": "https://satelit.md",
+    "license": "Satelit"
+   }
+  ],
+  "attribution": null,
+  "page": {
+   "page": 1,
+   "per": 3,
+   "total": 7146,
+   "pages": 2382
+  }
+ }
+}

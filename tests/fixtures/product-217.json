@@ -1,0 +1,106 @@
+{
+ "data": {
+  "id": 217,
+  "slug": "lapte-jlc-2-5-1l",
+  "name": "Lapte JLC 2.5% 1 l",
+  "brand": "JLC",
+  "capacity": "1 l",
+  "category": "dairy_eggs",
+  "min_price": 16.99,
+  "median_price": 18.02,
+  "unit_min_price": 16.99,
+  "price_unit": "l",
+  "stores": 4,
+  "in_stock_stores": 4,
+  "updated_at": "2026-11-19T16:31:33+02:00",
+  "offers": [
+   {
+    "store": {
+     "key": "megaalina",
+     "name": "MegaAlina"
+    },
+    "title": "JLC Lapte 1L 2,5% Pelicula",
+    "price": 16.99,
+    "old_price": 18.99,
+    "discount_pct": 11,
+    "unit_price": 16.99,
+    "unit": "l",
+    "in_stock": true,
+    "url": "https://www.megaalina.md/ro/catalog/lapte/jlc-lapte-1l-25-pelicula",
+    "last_seen": "2026-11-19T02:05:46+02:00"
+   },
+   {
+    "store": {
+     "key": "linella",
+     "name": "Linella"
+    },
+    "title": "Lapte 2.5% pelicula 1l JLC",
+    "price": 17.99,
+    "old_price": null,
+    "discount_pct": null,
+    "unit_price": 17.99,
+    "unit": "l",
+    "in_stock": true,
+    "url": "https://linella.md/lactate/lapte/lapte-2-5-pelicula-1l-jlc/",
+    "last_seen": "2026-11-19T16:31:33+02:00"
+   },
+   {
+    "store": {
+     "key": "bonus",
+     "name": "Bonus"
+    },
+    "title": "Lapte JLC 2.5% 1l",
+    "price": 18.05,
+    "old_price": null,
+    "discount_pct": null,
+    "unit_price": 18.05,
+    "unit": "l",
+    "in_stock": true,
+    "url": "https://bonus.zakaz.md/ro/products/lapte-jlc-1000ml-moldova--04840053000192/",
+    "last_seen": "2026-11-19T16:31:33+02:00"
+   },
+   {
+    "store": {
+     "key": "metro",
+     "name": "METRO"
+    },
+    "title": "Lapte JLC 2,5% 1l",
+    "price": 20.49,
+    "old_price": null,
+    "discount_pct": null,
+    "unit_price": 20.49,
+    "unit": "l",
+    "in_stock": true,
+    "url": "https://metro.zakaz.md/ro/products/lapte-jlc-1000ml-moldova--04840053000109/",
+    "last_seen": "2026-11-19T00:35:18+02:00"
+   }
+  ]
+ },
+ "meta": {
+  "credits": 2,
+  "updated_at": "2026-11-19T16:31:33+02:00",
+  "sources": [
+   {
+    "name": "Bonus",
+    "url": "https://bonus.zakaz.md",
+    "license": "none: read from the shop's public pages; no agreement with the shop and no licence over its data is granted"
+   },
+   {
+    "name": "Linella",
+    "url": "https://linella.md",
+    "license": "none: read from the shop's public pages; no agreement with the shop and no licence over its data is granted"
+   },
+   {
+    "name": "METRO",
+    "url": "https://metro.zakaz.md",
+    "license": "none: read from the shop's public pages; no agreement with the shop and no licence over its data is granted"
+   },
+   {
+    "name": "MegaAlina",
+    "url": "https://www.megaalina.md",
+    "license": "none: read from the shop's public pages; no agreement with the shop and no licence over its data is granted"
+   }
+  ],
+  "attribution": null
+ }
+}

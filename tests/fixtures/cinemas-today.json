@@ -1,0 +1,403 @@
+{
+ "data": {
+  "country": "MD",
+  "day": "2026-11-19",
+  "cinemas": [
+   {
+    "cinema": {
+     "id": "c3966341138",
+     "name": "Cineplex Mall",
+     "chain": "Cineplex",
+     "city": "Chișinău",
+     "address": "Arborilor 21, 4th floor, Shopping Malldova",
+     "screens": 6,
+     "lat": null,
+     "lon": null,
+     "sessions": 77,
+     "first_day": "2026-11-19",
+     "last_day": "2026-11-22"
+    },
+    "films": [
+     {
+      "id": "m1794494",
+      "kind": "movie",
+      "title": "Badanta",
+      "original_title": "Badanta",
+      "year": 2026,
+      "released": "2026-10-01",
+      "language": "ro",
+      "rating": null,
+      "overview": "Valea leaves for Italy to earn money for an apartment, but Valera loses the family's savings. Desperate to hide the truth, he heads to Italy and gets caught up with Italian mobsters, precious stones, and total chaos.",
+      "pictures": {
+       "poster": {
+        "s": "https://api.satelit.md/v1/movies/img/s/4F4r5hZpiuWscSBe3MtcmBcSzg5.jpg",
+        "m": "https://api.satelit.md/v1/movies/img/m/4F4r5hZpiuWscSBe3MtcmBcSzg5.jpg",
+        "l": "https://api.satelit.md/v1/movies/img/l/4F4r5hZpiuWscSBe3MtcmBcSzg5.jpg"
+       }
+      },
+      "listed_title": "Badanta",
+      "sessions": [
+       {
+        "date": "2026-11-19",
+        "time": "10:10",
+        "hall": "Sala 6",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ro",
+        "language": "RO Dublat RO",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "11:10",
+        "hall": "Sala 2",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ro",
+        "language": "RO Dublat RO",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "13:10",
+        "hall": "Sala 2",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ro",
+        "language": "RO Dublat RO",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       }
+      ]
+     },
+     {
+      "id": "m1263337",
+      "kind": "movie",
+      "title": "În inima sălbăticiei",
+      "original_title": "Heart of the Beast",
+      "year": 2026,
+      "released": "2026-09-19",
+      "language": "en",
+      "rating": {
+       "value": 7.7,
+       "votes": 978
+      },
+      "overview": "După un accident aviatic cumplit, un ofițer din Forțele Speciale și câinele său de luptă se trezesc blocați în adâncul sălbăticiei din Alaska. Împreună, sunt nevoiți să ducă o luptă brutală pentru supraviețuire împotriva forțelor naturii.",
+      "pictures": {
+       "poster": {
+        "s": "https://api.satelit.md/v1/movies/img/s/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+        "m": "https://api.satelit.md/v1/movies/img/m/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+        "l": "https://api.satelit.md/v1/movies/img/l/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg"
+       },
+       "backdrop": {
+        "m": "https://api.satelit.md/v1/movies/img/m/nlqHh1zGH8HYERr4eRICN9ligk.jpg",
+        "w": "https://api.satelit.md/v1/movies/img/w/nlqHh1zGH8HYERr4eRICN9ligk.jpg"
+       }
+      },
+      "listed_title": "În inima sălbăticiei",
+      "sessions": [
+       {
+        "date": "2026-11-19",
+        "time": "10:30",
+        "hall": "Sala 3",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ru",
+        "language": "RU Dublat RU",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "21:30",
+        "hall": "Sala 3",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ru",
+        "language": "RU Dublat RU",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       }
+      ]
+     },
+     {
+      "id": null,
+      "kind": "movie",
+      "title": "Chisinau, My Love",
+      "year": null,
+      "rating": null,
+      "pictures": null,
+      "listed_title": "Chisinau, My Love",
+      "sessions": [
+       {
+        "date": "2026-11-19",
+        "time": "11:50",
+        "hall": "Sala 1",
+        "formats": [
+         "2D"
+        ],
+        "audio": "en",
+        "language": "EN Subtitrat EN-RO",
+        "subtitles": "ro",
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "13:50",
+        "hall": "Sala 4",
+        "formats": [
+         "2D"
+        ],
+        "audio": "en",
+        "language": "EN Subtitrat EN-RO",
+        "subtitles": "ro",
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "18:30",
+        "hall": "Sala 4",
+        "formats": [
+         "2D"
+        ],
+        "audio": "en",
+        "language": "EN Subtitrat EN-RO",
+        "subtitles": "ro",
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cinema": {
+     "id": "c789032329",
+     "name": "Cineplex Balti",
+     "chain": "Cineplex",
+     "city": "Bălți",
+     "address": "Nicolae Iorga 5, 2nd floor, EVIMALL",
+     "screens": 3,
+     "lat": null,
+     "lon": null,
+     "sessions": 24,
+     "first_day": "2026-11-19",
+     "last_day": "2026-11-22"
+    },
+    "films": [
+     {
+      "id": "m438631",
+      "kind": "movie",
+      "title": "Dune",
+      "original_title": "Dune",
+      "year": 2021,
+      "released": "2021-09-15",
+      "language": "en",
+      "rating": {
+       "value": 7.8,
+       "votes": 15990
+      },
+      "overview": "Paul Atreides, un tânăr strălucit și talentat născut cu un mare destin, dincolo de capacitatea lui de înțelegere, trebuie să călătorească pe cea mai periculoasă planetă din univers pentru a asigura viitorul familiei și poporului său. Pe măsură ce forțe malefice intră în conflict pentru monopolul asu…",
+      "pictures": {
+       "poster": {
+        "s": "https://api.satelit.md/v1/movies/img/s/h7Q20HftAApY3VXlfCyeNIuZWg0.jpg",
+        "m": "https://api.satelit.md/v1/movies/img/m/h7Q20HftAApY3VXlfCyeNIuZWg0.jpg",
+        "l": "https://api.satelit.md/v1/movies/img/l/h7Q20HftAApY3VXlfCyeNIuZWg0.jpg"
+       },
+       "backdrop": {
+        "m": "https://api.satelit.md/v1/movies/img/m/h61Kc0NC7d90jNwXfBx5js7DnSQ.jpg",
+        "w": "https://api.satelit.md/v1/movies/img/w/h61Kc0NC7d90jNwXfBx5js7DnSQ.jpg"
+       }
+      },
+      "listed_title": "Dune",
+      "sessions": [
+       {
+        "date": "2026-11-19",
+        "time": "10:40",
+        "hall": "Sala 3",
+        "formats": [
+         "3D"
+        ],
+        "audio": "ru",
+        "language": "RU Dublat EN-RO,RU",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "16:00",
+        "hall": "Sala 3",
+        "formats": [
+         "3D"
+        ],
+        "audio": "ru",
+        "language": "RU Dublat EN-RO,RU",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       }
+      ]
+     },
+     {
+      "id": "m1465063",
+      "kind": "movie",
+      "title": "Insula pierdută",
+      "original_title": "Forgotten Island",
+      "year": 2026,
+      "released": "2026-09-10",
+      "language": "en",
+      "rating": {
+       "value": 8.1,
+       "votes": 267
+      },
+      "overview": "Jo și Raissa, absolvente de liceu, sunt cele mai bune prietene încă din școala primară, dar se pregătesc acum să pornească pe drumuri diferite în viață. În timp ce își petrec ultima seară împreună, Jo și Raissa descoperă din întâmplare un portal misterios, care le transportă pe fantastica insulă Nak…",
+      "pictures": {
+       "poster": {
+        "s": "https://api.satelit.md/v1/movies/img/s/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg",
+        "m": "https://api.satelit.md/v1/movies/img/m/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg",
+        "l": "https://api.satelit.md/v1/movies/img/l/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg"
+       },
+       "backdrop": {
+        "m": "https://api.satelit.md/v1/movies/img/m/iU2RVy0G99XoDSUHvcQomtif5nP.jpg",
+        "w": "https://api.satelit.md/v1/movies/img/w/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
+       }
+      },
+      "listed_title": "Insula pierdută",
+      "sessions": [
+       {
+        "date": "2026-11-19",
+        "time": "11:40",
+        "hall": "Sala 1",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ro",
+        "language": "RO Dublat RO",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       }
+      ]
+     },
+     {
+      "id": null,
+      "kind": "movie",
+      "title": "Cum să spargi o bancă",
+      "year": null,
+      "rating": null,
+      "pictures": null,
+      "listed_title": "Cum să spargi o bancă",
+      "sessions": [
+       {
+        "date": "2026-11-19",
+        "time": "14:00",
+        "hall": "Sala 1",
+        "formats": [
+         "2D"
+        ],
+        "audio": "en",
+        "language": "EN Subtitrat EN-RO",
+        "subtitles": "ro",
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "18:30",
+        "hall": "Sala 1",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ru",
+        "language": "RU Dublat EN-RO,RU",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       },
+       {
+        "date": "2026-11-19",
+        "time": "20:50",
+        "hall": "Sala 1",
+        "formats": [
+         "2D"
+        ],
+        "audio": "ru",
+        "language": "RU Dublat EN-RO,RU",
+        "subtitles": null,
+        "price": null,
+        "currency": null,
+        "sold_out": false,
+        "booking_url": null
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "coverage": {
+   "country": "MD",
+   "chains": 2,
+   "cinemas": 4,
+   "cinemas_with_sessions": 3,
+   "cities": 2,
+   "sessions": 109,
+   "films": 9,
+   "first_day": "2026-11-19",
+   "last_day": "2026-11-22",
+   "read_at": "2026-11-19T03:06:19Z"
+  }
+ },
+ "meta": {
+  "credits": 40,
+  "updated_at": null,
+  "sources": [
+   {
+    "name": "Satelit",
+    "url": "https://satelit.md",
+    "license": "Satelit"
+   }
+  ],
+  "attribution": null
+ }
+}

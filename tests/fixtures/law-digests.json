@@ -1,0 +1,31 @@
+{
+ "data": [
+  {
+   "date": "2026-11-19",
+   "acts": 28,
+   "title": "Noutăți legislative: 19 noiembrie 2026"
+  },
+  {
+   "date": "2026-11-18",
+   "acts": 3,
+   "title": "Noutăți legislative: 18 noiembrie 2026"
+  },
+  {
+   "date": "2026-11-17",
+   "acts": 20,
+   "title": "Noutăți legislative: 17 noiembrie 2026"
+  }
+ ],
+ "meta": {
+  "credits": 2,
+  "updated_at": "2026-11-19T08:30:26+02:00",
+  "sources": [
+   {
+    "name": "Monitorul Oficial",
+    "url": "https://monitorul.gov.md",
+    "license": "none: read from the source's public pages; no agreement with the source and no licence over its data is granted"
+   }
+  ],
+  "attribution": null
+ }
+}

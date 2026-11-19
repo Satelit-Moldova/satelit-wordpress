@@ -1,0 +1,7 @@
+/vendor/
+/build/
+/composer.lock
+*.zip
+.env
+*.log
+.DS_Store

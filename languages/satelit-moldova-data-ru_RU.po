@@ -1,0 +1,539 @@
+# Copyright (C) 2026 Satelit (satelit.md)
+# This file is distributed under the MIT license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Satelit — Moldova Data 1.0.0\n"
+"Report-Msgid-Bugs-To: contact@satelit.md\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-11-19 12:00+0200\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: satelit-moldova-data\n"
+
+#. Plugin Name of the plugin
+#: satelit-moldova-data.php
+#: includes/class-satelit-settings.php:36
+#: includes/class-satelit-settings.php:253
+#: includes/class-satelit-widget.php:44
+msgid "Satelit — Moldova Data"
+msgstr "Satelit — данные Молдовы"
+
+#. Plugin URI of the plugin
+#: satelit-moldova-data.php
+msgid "https://developer.satelit.md/en/docs/"
+msgstr "https://developer.satelit.md/en/docs/"
+
+#. Description of the plugin
+#: satelit-moldova-data.php
+msgid "BNM exchange rates, a MDL converter, fuel prices, shop price comparison, news, cinema schedules, Monitorul Oficial digests and the joke of the day from the Satelit API, as shortcodes, blocks and widgets."
+msgstr "Курсы НБМ, конвертер MDL, цены на топливо, сравнение цен в магазинах, новости, расписание кинотеатров, обзор Monitorul Oficial и анекдот дня из API Satelit — шорткоды, блоки и виджеты."
+
+#. Author of the plugin
+#: satelit-moldova-data.php
+#: includes/class-satelit-settings.php:37
+msgid "Satelit"
+msgstr "Satelit"
+
+#. Author URI of the plugin
+#: satelit-moldova-data.php
+msgid "https://satelit.md"
+msgstr "https://satelit.md"
+
+#: includes/class-satelit-api.php:136
+#: includes/class-satelit-settings.php:146
+msgid "No Satelit API key is set."
+msgstr "Ключ API Satelit не задан."
+
+#: includes/class-satelit-api.php:225
+msgid "Unexpected answer from the API."
+msgstr "Неожиданный ответ API."
+
+#: includes/class-satelit-blocks.php:81
+#: satelit-moldova-data.php:68
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-satelit-features.php:59
+msgid "Satelit: BNM exchange rates"
+msgstr "Satelit: курсы НБМ"
+
+#: includes/class-satelit-features.php:60
+msgid "Satelit: MDL converter"
+msgstr "Satelit: конвертер MDL"
+
+#: includes/class-satelit-features.php:61
+msgid "Satelit: fuel prices"
+msgstr "Satelit: цены на топливо"
+
+#: includes/class-satelit-features.php:62
+msgid "Satelit: price comparison"
+msgstr "Satelit: сравнение цен"
+
+#: includes/class-satelit-features.php:63
+msgid "Satelit: product offers"
+msgstr "Satelit: предложения по товару"
+
+#: includes/class-satelit-features.php:64
+msgid "Satelit: latest news"
+msgstr "Satelit: последние новости"
+
+#: includes/class-satelit-features.php:65
+msgid "Satelit: cinemas today"
+msgstr "Satelit: сегодня в кино"
+
+#: includes/class-satelit-features.php:66
+msgid "Satelit: film card"
+msgstr "Satelit: карточка фильма"
+
+#: includes/class-satelit-features.php:67
+msgid "Satelit: Monitorul Oficial digest"
+msgstr "Satelit: обзор Monitorul Oficial"
+
+#: includes/class-satelit-features.php:68
+msgid "Satelit: joke of the day"
+msgstr "Satelit: анекдот дня"
+
+#: includes/class-satelit-features.php:79
+#: includes/class-satelit-settings.php:308
+msgid "Currency codes, comma separated"
+msgstr "Коды валют через запятую"
+
+#: includes/class-satelit-features.php:80
+msgid "Start amount"
+msgstr "Начальная сумма"
+
+#: includes/class-satelit-features.php:81
+msgid "How many"
+msgstr "Сколько"
+
+#: includes/class-satelit-features.php:82
+#: includes/class-satelit-woocommerce.php:57
+msgid "Search words"
+msgstr "Слова для поиска"
+
+#: includes/class-satelit-features.php:83
+msgid "Id"
+msgstr "Id"
+
+#: includes/class-satelit-features.php:84
+msgid "News category key (empty: all)"
+msgstr "Ключ категории новостей (пусто: все)"
+
+#: includes/class-satelit-features.php:85
+msgid "City"
+msgstr "Город"
+
+#: includes/class-satelit-features.php:86
+msgid "Days"
+msgstr "Дни"
+
+#. translators: %s: link to the settings page.
+#: includes/class-satelit-render.php:42
+#, php-format
+msgid "Satelit: add your API key in %s. Only administrators see this line."
+msgstr "Satelit: добавьте ключ API в %s. Эту строку видят только администраторы."
+
+#. translators: %s: link to the settings page.
+#: includes/class-satelit-render.php:42
+msgid "Settings → Satelit"
+msgstr "Настройки → Satelit"
+
+#. translators: %s: error message from the API.
+#: includes/class-satelit-render.php:45
+#, php-format
+msgid "Satelit: no data (%s). Only administrators see this line."
+msgstr "Satelit: нет данных (%s). Эту строку видят только администраторы."
+
+#: includes/class-satelit-render.php:73
+msgid "saved copy"
+msgstr "сохранённая копия"
+
+#: includes/class-satelit-render.php:75
+msgid "Data: Satelit"
+msgstr "Данные: Satelit"
+
+#: includes/class-satelit-render.php:202
+msgid "Currency"
+msgstr "Валюта"
+
+#: includes/class-satelit-render.php:202
+msgid "MDL"
+msgstr "MDL"
+
+#: includes/class-satelit-render.php:202
+msgid "7 days"
+msgstr "7 дней"
+
+#. translators: %s: date.
+#: includes/class-satelit-render.php:205
+#, php-format
+msgid "BNM official rates, %s"
+msgstr "Официальный курс НБМ, %s"
+
+#: includes/class-satelit-render.php:248
+msgid "Amount"
+msgstr "Сумма"
+
+#: includes/class-satelit-render.php:249
+#: includes/class-satelit-render.php:373
+#: includes/class-satelit-render.php:403
+msgid "From"
+msgstr "Из"
+
+#: includes/class-satelit-render.php:250
+msgid "Swap currencies"
+msgstr "Поменять валюты местами"
+
+#: includes/class-satelit-render.php:251
+msgid "To"
+msgstr "В"
+
+#. translators: %s: date.
+#: includes/class-satelit-render.php:257
+#, php-format
+msgid "Currency converter, BNM rate of %s"
+msgstr "Конвертер валют, курс НБМ на %s"
+
+#: includes/class-satelit-render.php:289
+msgid "A95"
+msgstr "A95"
+
+#: includes/class-satelit-render.php:290
+msgid "Diesel"
+msgstr "Дизель"
+
+#: includes/class-satelit-render.php:291
+msgid "LPG"
+msgstr "Газ"
+
+#: includes/class-satelit-render.php:301
+msgid "ANRE cap"
+msgstr "Потолок НАРЭ"
+
+#: includes/class-satelit-render.php:301
+msgid "lei/l"
+msgstr "лей/л"
+
+#: includes/class-satelit-render.php:311
+msgid "Cheapest"
+msgstr "Дешевле всего"
+
+#: includes/class-satelit-render.php:313
+msgid "Network"
+msgstr "Сеть"
+
+#. translators: %s: date.
+#: includes/class-satelit-render.php:329
+#, php-format
+msgid "Fuel prices, lei per litre, %s"
+msgstr "Цены на топливо, лей за литр, %s"
+
+#: includes/class-satelit-render.php:350
+#: includes/class-satelit-render.php:615
+msgid "Source:"
+msgstr "Источник:"
+
+#: includes/class-satelit-render.php:371
+msgid "No products found."
+msgstr "Товары не найдены."
+
+#: includes/class-satelit-render.php:373
+msgid "Product"
+msgstr "Товар"
+
+#: includes/class-satelit-render.php:373
+#: includes/class-satelit-render.php:404
+msgid "Median"
+msgstr "Медиана"
+
+#: includes/class-satelit-render.php:373
+msgid "Shops"
+msgstr "Магазины"
+
+#. translators: %s: search words.
+#: includes/class-satelit-render.php:382
+#, php-format
+msgid "Prices in Moldovan shops, lei: “%s”"
+msgstr "Цены в магазинах Молдовы, лей: «%s»"
+
+#: includes/class-satelit-render.php:403
+msgid "lei"
+msgstr "лей"
+
+#. translators: %d: number of shops.
+#: includes/class-satelit-render.php:406
+#, php-format
+msgid "%d shop"
+msgid_plural "%d shops"
+msgstr[0] "%d магазин"
+msgstr[1] "%d магазина"
+msgstr[2] "%d магазинов"
+
+#: includes/class-satelit-render.php:407
+msgid "Shop"
+msgstr "Магазин"
+
+#: includes/class-satelit-render.php:407
+msgid "Price"
+msgstr "Цена"
+
+#: includes/class-satelit-render.php:407
+msgid "Stock"
+msgstr "Наличие"
+
+#: includes/class-satelit-render.php:413
+msgid "yes"
+msgstr "да"
+
+#: includes/class-satelit-render.php:413
+msgid "no"
+msgstr "нет"
+
+#: includes/class-satelit-render.php:456
+msgid "Latest news from Moldova"
+msgstr "Последние новости Молдовы"
+
+#: includes/class-satelit-render.php:520
+msgid "No sessions today."
+msgstr "Сегодня сеансов нет."
+
+#. translators: 1: city, 2: date.
+#: includes/class-satelit-render.php:524
+#, php-format
+msgid "In cinemas in %1$s, %2$s"
+msgstr "В кино, %1$s, %2$s"
+
+#. translators: %s: date.
+#: includes/class-satelit-render.php:524
+#, php-format
+msgid "In cinemas today, %s"
+msgstr "Сегодня в кино, %s"
+
+#. translators: %d: minutes.
+#: includes/class-satelit-render.php:551
+#, php-format
+msgid "%d min"
+msgstr "%d мин"
+
+#: includes/class-satelit-render.php:561
+msgid "Director"
+msgstr "Режиссёр"
+
+#: includes/class-satelit-render.php:564
+msgid "Cast"
+msgstr "В ролях"
+
+#. translators: %d: number of acts.
+#: includes/class-satelit-render.php:593
+#, php-format
+msgid "%d act"
+msgid_plural "%d acts"
+msgstr[0] "%d акт"
+msgstr[1] "%d акта"
+msgstr[2] "%d актов"
+
+#: includes/class-satelit-render.php:596
+msgid "Monitorul Oficial digest"
+msgstr "Обзор Monitorul Oficial"
+
+#: includes/class-satelit-render.php:616
+#: includes/class-satelit-settings.php:241
+msgid "Joke of the day"
+msgstr "Анекдот дня"
+
+#: includes/class-satelit-settings.php:131
+msgid "Checking…"
+msgstr "Проверка…"
+
+#: includes/class-satelit-settings.php:132
+msgid "The request failed."
+msgstr "Запрос не удался."
+
+#: includes/class-satelit-settings.php:143
+#: includes/class-satelit-settings.php:177
+msgid "Not allowed."
+msgstr "Недостаточно прав."
+
+#: includes/class-satelit-settings.php:155
+msgid "none"
+msgstr "нет"
+
+#. translators: 1: plan name, 2: credits left, 3: credits in the period, 4: reset date.
+#: includes/class-satelit-settings.php:160
+#, php-format
+msgid "Connected. Plan: %1$s. Credits left: %2$s of %3$s (renews %4$s)."
+msgstr "Подключено. Тариф: %1$s. Осталось кредитов: %2$s из %3$s (обновление %4$s)."
+
+#: includes/class-satelit-settings.php:198
+#: includes/class-satelit-settings.php:206
+msgid "Satelit:"
+msgstr "Satelit:"
+
+#: includes/class-satelit-settings.php:201
+msgid "Check the API key"
+msgstr "Проверьте ключ API"
+
+#. translators: 1: route, 2: error message.
+#: includes/class-satelit-settings.php:210
+#, php-format
+msgid "the last call to %1$s failed (%2$s). Pages show the saved copy when there is one."
+msgstr "последний запрос к %1$s не удался (%2$s). Страницы показывают сохранённую копию, если она есть."
+
+#: includes/class-satelit-settings.php:219
+msgid "Satelit cache cleared."
+msgstr "Кэш Satelit очищен."
+
+#: includes/class-satelit-settings.php:234
+msgid "Exchange rates and converter"
+msgstr "Курсы и конвертер"
+
+#: includes/class-satelit-settings.php:235
+msgid "Fuel prices"
+msgstr "Цены на топливо"
+
+#: includes/class-satelit-settings.php:236
+msgid "Shop prices and offers"
+msgstr "Цены и предложения магазинов"
+
+#: includes/class-satelit-settings.php:237
+msgid "News"
+msgstr "Новости"
+
+#: includes/class-satelit-settings.php:238
+msgid "Cinema schedule"
+msgstr "Расписание кинотеатров"
+
+#: includes/class-satelit-settings.php:239
+msgid "Film cards"
+msgstr "Карточки фильмов"
+
+#: includes/class-satelit-settings.php:240
+msgid "Monitorul Oficial"
+msgstr "Monitorul Oficial"
+
+#: includes/class-satelit-settings.php:244
+msgid "Site language"
+msgstr "Язык сайта"
+
+#: includes/class-satelit-settings.php:258
+msgid "API key"
+msgstr "Ключ API"
+
+#: includes/class-satelit-settings.php:260
+msgid "A key is saved. Type a new one to replace it."
+msgstr "Ключ сохранён. Введите новый, чтобы заменить его."
+
+#: includes/class-satelit-settings.php:262
+msgid "Remove the saved key"
+msgstr "Удалить сохранённый ключ"
+
+#. translators: %s: link to the Satelit console.
+#: includes/class-satelit-settings.php:268
+#, php-format
+msgid "Create a key in the %s. It stays on this server and is never sent to visitors."
+msgstr "Создайте ключ в %s. Он остаётся на этом сервере и никогда не передаётся посетителям."
+
+#: includes/class-satelit-settings.php:269
+msgid "Satelit console"
+msgstr "консоли Satelit"
+
+#: includes/class-satelit-settings.php:276
+msgid "Data language"
+msgstr "Язык данных"
+
+#: includes/class-satelit-settings.php:286
+msgid "Cache, minutes"
+msgstr "Кэш, минуты"
+
+#. translators: %d: minutes.
+#: includes/class-satelit-settings.php:296
+#, php-format
+msgid "(at least %d)"
+msgstr "(не меньше %d)"
+
+#: includes/class-satelit-settings.php:305
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-satelit-settings.php:307
+msgid "Show the product price in other currencies at today’s BNM rate"
+msgstr "Показывать цену товара в других валютах по сегодняшнему курсу НБМ"
+
+#: includes/class-satelit-settings.php:310
+msgid "WooCommerce is not active: these options apply once it is."
+msgstr "WooCommerce не активен: эти настройки заработают после его активации."
+
+#: includes/class-satelit-settings.php:318
+msgid "Connection"
+msgstr "Подключение"
+
+#: includes/class-satelit-settings.php:320
+msgid "Test connection"
+msgstr "Проверить подключение"
+
+#. translators: 1: credits left, 2: credits in the period, 3: date and time.
+#: includes/class-satelit-settings.php:329
+#, php-format
+msgid "Last answer: %1$s of %2$s credits left (%3$s)."
+msgstr "Последний ответ: осталось %1$s из %2$s кредитов (%3$s)."
+
+#: includes/class-satelit-settings.php:341
+msgid "Clear cache"
+msgstr "Очистить кэш"
+
+#: includes/class-satelit-settings.php:344
+msgid "Credits"
+msgstr "Кредиты"
+
+#. translators: %s: link to the pricing page.
+#: includes/class-satelit-settings.php:349
+#, php-format
+msgid "Each answer from the API costs credits from your plan: most routes 1-5, cinema schedules and film cards 40. Answers are cached for the minutes above and every visitor gets the cached copy, so a page costs credits only once per cache period. When the API cannot be reached, pages show the last saved copy. Plans: %s."
+msgstr "Каждый ответ API стоит кредитов из вашего тарифа: большинство маршрутов 1-5, расписание кинотеатров и карточки фильмов 40. Ответы хранятся в кэше указанное выше число минут, и все посетители получают копию из кэша, поэтому страница расходует кредиты один раз за период. Если API недоступен, страницы показывают последнюю сохранённую копию. Тарифы: %s."
+
+#: includes/class-satelit-settings.php:354
+msgid "Shortcodes: [satelit_rates] [satelit_converter] [satelit_fuel] [satelit_prices q=\"lapte\"] [satelit_product id=\"217\"] [satelit_news] [satelit_cinema] [satelit_movie id=\"m603\"] [satelit_law] [satelit_joke]. Every one is also a block (search \"Satelit\" in the block inserter)."
+msgstr "Шорткоды: [satelit_rates] [satelit_converter] [satelit_fuel] [satelit_prices q=\"lapte\"] [satelit_product id=\"217\"] [satelit_news] [satelit_cinema] [satelit_movie id=\"m603\"] [satelit_law] [satelit_joke]. Каждый есть и в виде блока (ищите \"Satelit\" в списке блоков)."
+
+#: includes/class-satelit-widget.php:46
+msgid "BNM rates, converter, fuel prices, news, Monitorul Oficial or the joke of the day."
+msgstr "Курсы НБМ, конвертер, топливо, новости, Monitorul Oficial или анекдот дня."
+
+#: includes/class-satelit-widget.php:94
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/class-satelit-widget.php:98
+msgid "Show"
+msgstr "Показать"
+
+#: includes/class-satelit-widget.php:108
+msgid "default"
+msgstr "по умолчанию"
+
+#: includes/class-satelit-widget.php:111
+msgid "Empty fields use the defaults. Fields a feature does not use are ignored."
+msgstr "Пустые поля берут значения по умолчанию. Поля, которые функция не использует, игнорируются."
+
+#: includes/class-satelit-woocommerce.php:45
+msgid "Satelit: prices in other shops"
+msgstr "Satelit: цены в других магазинах"
+
+#: includes/class-satelit-woocommerce.php:61
+msgid "or Satelit item id"
+msgstr "или id товара Satelit"
+
+#: includes/class-satelit-woocommerce.php:64
+msgid "The item id shows every shop’s offer for that exact product; the search words show a comparison. Empty: no tab."
+msgstr "Id показывает предложение каждого магазина именно по этому товару; слова поиска — сравнение. Пусто: без вкладки."
+
+#: includes/class-satelit-woocommerce.php:101
+msgid "Prices in other shops"
+msgstr "Цены в других магазинах"
+
+#: includes/class-satelit-woocommerce.php:124
+msgid "No offers to show right now."
+msgstr "Сейчас нет предложений."

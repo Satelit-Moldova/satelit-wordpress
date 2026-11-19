@@ -1,0 +1,44 @@
+{
+ "data": [
+  {
+   "code": "EUR",
+   "name": "Euro",
+   "value": 20.1411,
+   "nominal": 1,
+   "date": "2026-11-19",
+   "change_7d_pct": -0.1,
+   "change_30d_pct": 0.2
+  },
+  {
+   "code": "USD",
+   "name": "Dolar SUA",
+   "value": 18.3744,
+   "nominal": 1,
+   "date": "2026-11-19",
+   "change_7d_pct": 1.5,
+   "change_30d_pct": 2.5
+  },
+  {
+   "code": "RON",
+   "name": "Leu românesc",
+   "value": 3.7671,
+   "nominal": 1,
+   "date": "2026-11-19",
+   "change_7d_pct": -0.1,
+   "change_30d_pct": -0.2
+  }
+ ],
+ "meta": {
+  "credits": 1,
+  "updated_at": "2026-11-19T16:36:34+02:00",
+  "sources": [
+   {
+    "name": "BNM",
+    "url": "https://www.bnm.md/ro/content/ratele-de-schimb",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "attribution": "Sursa: Banca Națională a Moldovei, bnm.md, CC BY 4.0",
+  "notice": "Aceleași date sunt gratuite la bnm.md."
+ }
+}
